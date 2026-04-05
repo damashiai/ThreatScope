@@ -1,6 +1,6 @@
 # --- ThreatScope Specific ---
 # Do not track the local SQLite database (prevents huge repo sizes and data conflicts)
-threats.db
+/threats.db
 threats.db-journal
 
 # --- Python ---
