@@ -1,6 +1,11 @@
+import os
 import sqlite3
 
 DB_NAME = 'threats.db'
+
+# If the database doesn't exist, use a test database with sample data for development
+if not os.path.exists(DB_NAME):
+    DB_NAME = 'tests/threats.db'
 
 def get_connection():
     conn = sqlite3.connect(DB_NAME)

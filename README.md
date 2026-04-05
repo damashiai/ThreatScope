@@ -50,7 +50,7 @@ cd ThreatScope
 
 2. Install dependencies:
 ```
-pip install streamlit pandas plotly requests
+pip install -r requirements.txt
 ```
 
 3. Initialize the Data Worker:
